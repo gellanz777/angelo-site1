@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="estilos.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'><path fill='%231a1c20' d='M528 0H48A48 48 0 0 0 0 48v320a48 48 0 0 0 48 48h192v40H160a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h256a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H336v-40h192a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48ZM288 432a16 16 0 1 1 32 0 16 16 0 1 1 -32 0ZM512 368H64V64h448Z'/></svg>">
+
+  <title>Angelo Pandolfo Antonini | Portfolio</title>
+</head>
+<body>
+
+  <div class="main-container">
+    <nav>
+      <div class="left">
+        <a href="/">Angelo Pandolfo Antonini</a>
+      </div>
+      <div class="right">
+        <a href="https://github.com/lucassmagro" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/lucasmagro/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+        <a href="mailto:avp.antonini@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero-section">
+        <div class="text">
+          <h2>Olá eu sou o Angelo .</h2>
+          <p>Sou aluno de sistemas de informação na Unoesc, sou atleta de judo e busco me forma e virar um profissional na area de software</p>
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Habilidades</span>
+            </a>
+            <a href="#projects">
+              <i class="fa-solid fa-laptop"></i>
+              <span>Projetos</span>
+            </a>
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Depoimento</span>
+            </a>
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contato</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+         <img src="WhatsApp Image 2025-08-26 at 14.25.56.jpeg">
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <h2>Habilidades</h2>
+        <div class="text">
+          Desenvolvo projetos em front-end e back-end e estou estudando  lógica de programação. Tambem estou estudando  estruturas de dados e algoritmos.
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="HTML5_logo_and_wordmark.svg.png">
+            <span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="CSS3_logo_and_wordmark.svg.png">
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="javascript-logo-javascript-icon-transparent-free-png.webp">
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <h2>Projetos</h2>
+        <div class="text">
+          Durante a disciplina de Fundamentos de Desenvolvimento Web, eu fiz  dois projetos: um site demonstrativo para aplicar conceitos de HTML, CSS e JavaScript e um clone do Twitter, focando na estrutura e funcionalidades de uma rede social.
+ 
+        </div>
+      </section>
+
+      <section id="testimony" class="testimony-section">
+        <h2>Depoimento</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="dfc8ed8156b0712c830af75b1472dd81.jpg">
+            <p>Tony Stark</p>
+            <p>Empresario, bilionario e Filantropo </p>
+          </div>
+          <div class="text">
+            "Olha, eu achava meio nada a ver a ideia de um 'bom site' até eu precisar de um. Tive uns problemas sérios com os meus sites das empresas, e o Angelo me salvou. O código dele é bem trabalhado, e a navegação é fluida, fácil de entender e direta ao ponto."
+           
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contato</h2>
+        <div class="group">
+          <div class="text">
+            Se quiser entrar em contato comigo so me enviar uma mensagem, ficarei feliz em te ajudar. 
+          </div>
+          <form action="obrigado.html">
+            <label for="name">Nome</label>
+            <input type="text" id="name">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <label for="message">Mensagem</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar Mensagem</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div> <footer>
+    <div class="footer-container">
+      <p class="footer-text">I just wanna show people what I love doing :)</p>
+      <span class="footer-copy">&copy; 2025 Angelo Pandolfo Antonini.</span>
+    </div>
+  </footer>
+
+</body>
+</html>

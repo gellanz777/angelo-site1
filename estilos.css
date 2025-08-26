@@ -1,0 +1,260 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #15202b;
+  color: #d9d9d9;
+  min-height: 100vh;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  background: #192734;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+  padding: 32px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #22303c;
+}
+
+nav .left a {
+  color: #1da1f2;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+nav .right a {
+  color: #d9d9d9;
+  margin-left: 24px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav .right a:hover {
+  color: #1da1f2;
+}
+
+nav .right i {
+  margin-right: 6px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.hero-section .text {
+  flex: 1;
+}
+
+.hero-section h2 {
+  color: #1da1f2;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+.hero-section .links a {
+  background: #22303c;
+  color: #1da1f2;
+  border-radius: 24px;
+  padding: 8px 18px;
+  margin-right: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.2s;
+  border: 1px solid #1da1f2;
+}
+
+.hero-section .links a:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.hero-section .links i {
+  margin-right: 6px;
+}
+
+.headshot img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #1da1f2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-left: 32px;
+}
+
+.skills-section, .projects-section, .testimony-section, .contact-section {
+  margin: 40px 0;
+}
+
+.skills-section h2,
+.projects-section h2,
+.testimony-section h2,
+.contact-section h2 {
+  color: #1da1f2;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.skills-section .cells,
+.projects-section .cells {
+  display: flex;
+  gap: 24px;
+  margin-top: 18px;
+}
+
+.cell {
+  background: #22303c;
+  border-radius: 12px;
+  padding: 18px 24px;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+
+.cell:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.cell img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.cell span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.projects-section .cell a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.testimony-section .group {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  background: #22303c;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 18px;
+}
+
+.person-details {
+  text-align: center;
+  min-width: 120px;
+}
+
+.person-details img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #1da1f2;
+  margin-bottom: 8px;
+}
+
+.person-details p {
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.testimony-section .text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-section .group {
+  background: #22303c;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 18px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.contact-section label {
+  font-weight: 500;
+  color: #1da1f2;
+}
+
+.contact-section input,
+.contact-section textarea {
+  background: #192734;
+  border: 1px solid #1da1f2;
+  border-radius: 8px;
+  padding: 8px;
+  color: #d9d9d9;
+  font-size: 1rem;
+  resize: none;
+}
+
+.contact-section button {
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.contact-section button:hover {
+  background: #0d8ddb;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 24px 0 8px 0;
+  background: #192734;
+  border-top: 1px solid #22303c;
+  margin-top: 40px;
+}
+
+.footer-text {
+  color: #1da1f2;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.footer-copy {
+  color: #d9d9d9;
+  font-size: 0.95rem;
+}
